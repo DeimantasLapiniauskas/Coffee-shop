@@ -1,3 +1,48 @@
+
+main {
+  width: 70%;
+  margin: auto;
+  align-items: center;
+}
+
+.upcoming {
+  display: flex;
+  justify-content: space-between;
+}
+.upcoming h1 {
+  font-size: 300%;
+  font-weight: 500;
+}
+.upcomingImages {
+  height: 20vw;
+  display: flex;
+  width: 100%;
+  gap: 10%;
+}
+.upcomingImages img {
+  height: 100%;
+}
+.ClosedImages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.ClosedImages img {
+  height: 20vw;
+}
+.mainButton {
+  width: 6.5rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.loadMore {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid #ded4c5;
+  color: #ded4c5;
+  font-weight: 600;
+
 header {
   display: flex;
   justify-content: space-between;
@@ -33,4 +78,5 @@ header {
       color: #fff;
     }
   }
+
 }
